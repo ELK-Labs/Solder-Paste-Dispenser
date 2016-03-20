@@ -1,47 +1,50 @@
 Partlist
 
-Exported from Solder Paste Controller.sch at 09/02/2016 23:51
+Exported from Solder Paste Controller.sch at 20/03/2016 17:41
 
 EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
 
 Assembly variant: 
 
-Part           Value                        Device                       Package                     Library                    Sheet
+Part        Value                        Device                       Package                     Library                    Sheet
 
-U1             ATMEGA328P_TQFP              ATMEGA328P_TQFP              TQFP32-08                   SparkFun-DigitalIC         1
-U2             ULN2003                      ULN2003                      SOP-16                      ELK LABS                   1
-U3             AMS1117                      AMS1117                      SOT-223                     ELK LABS                   1
-U4             AO3401                       AO3401                       SOT-23                      ELK LABS                   1
-C1             10uF                         1UF-25V-10%(0805)            0805                        SparkFun-Capacitors        1
-C2             100nF                        1UF-25V-10%(0805)            0805                        SparkFun-Capacitors        1
-C3             100nF                        1UF-25V-10%(0805)            0805                        SparkFun-Capacitors        1
-C4             100nF                        1UF-25V-10%(0805)            0805                        SparkFun-Capacitors        1
-C5             100nF                        1UF-25V-10%(0805)            0805                        SparkFun-Capacitors        1
-R1             1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
-R2             1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
-R3             1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
-R4             1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
-R5             1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
-R6             3K3                          RESISTOR0805-RES             0805                        SparkFun-Passives          1
-R7             10K                          RESISTOR0805-RES             0805                        SparkFun-Passives          1
-R8             1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
-R9             1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
-R10            1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
-R11            1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
-CRYSTAL        CSTCE16M0V53-R0              CSTCE16M0V53-R0              CSTCE_V                     ELK LABS                   1
-FTDI HEADER    6-PIN-HEADER                 ARDUINO_SERIAL_PROGRAMPTH    1X06                        SparkFun-Connectors        1
-ISP            AVRISP-6                     AVRISP-6                     AVRISP                      adafruit                   1
-MOTOR HEADER   5-PIN-HEADER                 M05PTH                       1X05                        SparkFun-Connectors        1
-HEARTBEAT      LED                          LED                          0805-LED                    ELK LABS                   1
-ORANGE-LINE    LED                          LED                          0805-LED                    ELK LABS      				1
-YELLOW-LINE    LED                          LED                          0805-LED                    ELK LABS                   1
-PINK-LINE      LED                          LED                          0805-LED                    ELK LABS                   1
-BLUE-LINE      LED                          LED                          0805-LED                    ELK LABS                   1
-PWRLED         LED                          LED                          0805-LED                    ELK LABS                   1
-SPEED1LED      LED                          LED                          0805-LED                    ELK LABS                   1
-SPEED2LED      LED                          LED                          0805-LED                    ELK LABS                   1
-SPEED3LED      LED                          LED                          0805-LED                    ELK LABS                   1
-SPEED4LED      LED                          LED                          0805-LED                    ELK LABS                   1
-S1             SWITCH-MOMENTARY-2SMD-4      SWITCH-MOMENTARY-2SMD-4      TACTILE_SWITCH_TALL         SparkFun-Electromechanical 1
-S2             SWITCH-MOMENTARY-2SMD-4      SWITCH-MOMENTARY-2SMD-4      TACTILE_SWITCH_TALL         SparkFun-Electromechanical 1
-S3             SWITCH-MOMENTARY-2SMD-1101NE SWITCH-MOMENTARY-2SMD-1101NE TACTILE-SWITCH-1101NE       SparkFun-Electromechanical 1
+AVR-ISP     AVRISP-6                     AVRISP-6                     AVRISP                      adafruit                   1
+BLUE-LINE   LED                          LED                          0805-LED                    ELK LABS                   1
+C1          10uF                         1UF-25V-10%(0805)            0805                        SparkFun-Capacitors        1
+C2          100nF                        1UF-25V-10%(0805)            0805                        SparkFun-Capacitors        1
+C3          100nF                        1UF-25V-10%(0805)            0805                        SparkFun-Capacitors        1
+C4          100nF                        1UF-25V-10%(0805)            0805                        SparkFun-Capacitors        1
+C5          100nF                        1UF-25V-10%(0805)            0805                        SparkFun-Capacitors        1
+CRYSTAL     CSTCE16M0V53-R0              CSTCE16M0V53-R0              CSTCE_V                     ELK LABS                   1
+DC-IN       POWER-IN-WITH-RELIEF         POWER-IN-WITH-RELIEF         POWER_CONNECTOR_WITH_RELIEF ELK LABS                   1
+FTDI                                     ARDUINO_SERIAL_PROGRAMPTH    1X06                        SparkFun-Connectors        1
+HEARTBEAT   LED                          LED                          0805-LED                    ELK LABS                   1
+MOTOR                                    M05PTH                       1X05                        SparkFun-Connectors        1
+ORANGE-LINE LED                          LED                          0805-LED                    ELK LABS                   1
+PINK-LINE   LED                          LED                          0805-LED                    ELK LABS                   1
+PWRLED      LED                          LED                          0805-LED                    ELK LABS                   1
+R1          1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
+R2          1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
+R3          1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
+R4          1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
+R5          1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
+R6          3K3                          RESISTOR0805-RES             0805                        SparkFun-Passives          1
+R7          10K                          RESISTOR0805-RES             0805                        SparkFun-Passives          1
+R8          1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
+R9          1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
+R10         1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
+R11         1K                           RESISTOR0805-RES             0805                        SparkFun-Passives          1
+R12         120R                         RESISTOR0805-RES             0805                        SparkFun-Passives          1
+R13         120R                         RESISTOR0805-RES             0805                        SparkFun-Passives          1
+S1          SWITCH-MOMENTARY-LEDPTH      SWITCH-MOMENTARY-LEDPTH      TACTILE-PTH-LED-12MM        SparkFun-Electromechanical 1
+S3          SWITCH-MOMENTARY-2SMD-1101NE SWITCH-MOMENTARY-2SMD-1101NE TACTILE-SWITCH-1101NE       SparkFun-Electromechanical 1
+S5          SWITCH-MOMENTARY-LEDPTH      SWITCH-MOMENTARY-LEDPTH      TACTILE-PTH-LED-12MM        SparkFun-Electromechanical 1
+SPEED1LED   LED                          LED                          0805-LED                    ELK LABS                   1
+SPEED2LED   LED                          LED                          0805-LED                    ELK LABS                   1
+SPEED3LED   LED                          LED                          0805-LED                    ELK LABS                   1
+SPEED4LED   LED                          LED                          0805-LED                    ELK LABS                   1
+U1          ATMEGA328P_TQFP              ATMEGA328P_TQFP              TQFP32-08                   SparkFun-DigitalIC         1
+U2          AMS1117                      AMS1117                      SOT-223                     ELK LABS                   1
+U3          AO3401                       AO3401                       SOT-23                      ELK LABS                   1
+U4          ULN2003                      ULN2003                      SOP-16                      ELK LABS                   1
+YELLOW-LINE LED                          LED                          0805-LED                    ELK LABS                   1
