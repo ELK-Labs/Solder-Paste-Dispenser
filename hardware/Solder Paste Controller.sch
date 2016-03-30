@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11589,7 +11589,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="VCC1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="CRYSTAL" library="ELK LABS" deviceset="CSTCE16M0V53-R0" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
-<part name="DC-IN" library="ELK LABS" deviceset="POWER-IN-WITH-RELIEF" device=""/>
+<part name="DC-IN" library="ELK LABS" deviceset="POWER-IN-WITH-RELIEF" device="" value="red black twister wire"/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="U4" library="ELK LABS" deviceset="ULN2003" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
@@ -11626,13 +11626,13 @@ DIN A4, landscape with location and doc. field</description>
 <part name="S3" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE"/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
 <part name="AVR-ISP" library="adafruit" deviceset="AVRISP" device="-6"/>
-<part name="FTDI" library="SparkFun-Connectors" deviceset="ARDUINO_SERIAL_PROGRAM" device="PTH"/>
+<part name="FTDI" library="SparkFun-Connectors" deviceset="ARDUINO_SERIAL_PROGRAM" device="PTH" value="6 pin header"/>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
 <part name="VCC3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
 <part name="VCC4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="VCC6" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="MOTOR" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
+<part name="MOTOR" library="SparkFun-Connectors" deviceset="M05" device="PTH" value="5 pin header"/>
 <part name="VCC5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="U$1" library="ELK LABS" deviceset="ELK-LOGO" device=""/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
@@ -11761,7 +11761,6 @@ https://github.com/elk_labs for more info</text>
 <attribute name="NAME" x="190.5" y="74.93" size="1.778" layer="95"/>
 </instance>
 <instance part="FTDI" gate="G$1" x="238.76" y="71.12" smashed="yes" rot="R270">
-<attribute name="VALUE" x="228.6" y="76.2" size="1.778" layer="96" rot="R270"/>
 <attribute name="NAME" x="237.49" y="79.502" size="1.778" layer="95"/>
 </instance>
 <instance part="SUPPLY24" gate="GND" x="208.28" y="58.42"/>
